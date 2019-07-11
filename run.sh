@@ -1,1 +1,1 @@
-echo "today is $date"
+echo "hello my name is ABCD"
