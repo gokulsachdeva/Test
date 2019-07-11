@@ -18,7 +18,7 @@ pipeline {
          steps {
 	 
 	   echo "build the code";
-	    bat label: '', script: 'run.bat'
+	   
 	   }
 	 }
 
