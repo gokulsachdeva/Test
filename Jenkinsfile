@@ -16,7 +16,7 @@ pipeline {
 	stage ('build') {
          steps {
 	 
-	   echo "build the code";
+	   echo "build code";
 	    bat label: '', script: 'run.bat'
 	   }
 	 }
