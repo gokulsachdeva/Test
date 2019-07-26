@@ -7,7 +7,7 @@ pipeline {
 	     git credentialsId: '9dea2dc1-194b-4b22-953f-d0b1cdb39dad', url: 'https://github.com/gokulsachdeva/test.git'
 	  }
 	 }
-	 stage ('test') {
+	 stage ('test code quality') {
          steps {
 	 
 	   echo "Test the code quality";
